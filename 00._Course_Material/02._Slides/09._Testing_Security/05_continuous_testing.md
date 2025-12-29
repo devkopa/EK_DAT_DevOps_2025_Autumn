@@ -219,6 +219,10 @@ For now know that there are multiple tools for end-to-end testing such as:
 
 [Gatling](https://gatling.io/)
 
+[Locust](https://locust.io/)
+
+[Grafana K6](https://grafana.com/docs/k6/latest/)
+
 ---
 
 # A/B testing
