@@ -62,8 +62,8 @@ GROUP_REPOS = [
   {
     "name": "CodeLab-DevOps",
     "gitLinks": ["https://github.com/CodeLab-DevOps/whoknows_elixir_monolith", "https://github.com/CodeLab-DevOps/Starter-WhoKnows-"],
-    "backend": "http://209.38.235.238:4000",
-    "frontend": "http://209.38.235.238:4000/",
+    "backend": "https://www.codelab-devops.dk/",
+    "frontend": "https://www.codelab-devops.dk/",
     "monitoring": "http://209.38.235.238:3000/",
     "stack": ["Elixir", "Phoneix", "Sqlite"],
     "documentation": [],
