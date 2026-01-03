@@ -28,8 +28,8 @@ GROUP_REPOS = [
     "stack": ["GO", "gin"],
     "documentation": [],
     "sla": "",
-},
-{
+  },
+  {
     "name": "DVK-DevOps",
     "gitLinks": ["https://github.com/DVK-DEVOPS/DVK-Project"],
     "backend": "https://whoknows-dvk.dk/",
@@ -38,7 +38,7 @@ GROUP_REPOS = [
     "stack": ["Go", "Gorilla", "PostgreSQL", "Swaggo", "nginx", "Docker", "Prometheus", "Grafana", "Terraform", "node-exporter", "alloy", "cAdvisor", "loki"],
     "documentation": [],
     "sla": "",
-},
+  },
   {
     "name": "Martin-s-angels",
     "gitLinks": ["https://github.com/Martin-s-angels/whoknows_variations_devops"],
@@ -48,7 +48,7 @@ GROUP_REPOS = [
     "stack": ["Ruby", "Sinatra"],
     "documentation": [],
     "sla": "",
-},
+  },
   {
     "name": "devkopa",
     "gitLinks": ["https://github.com/devkopa/WhoKnows-legacy", "https://github.com/devkopa/WhoKnows-next-gen"],
@@ -72,11 +72,11 @@ GROUP_REPOS = [
   {
     "name": "GitDenGas123456",
     "gitLinks": ["https://github.com/GitDenGas123456/DevOps-Valgfag"],
-    "backend": "http://4.235.104.246:8080/",
-    "frontend": "http://4.235.104.246:8080/",
-    "monitoring": "http://4.235.104.246:9090",
-    "stack": ["Go", "Gorilla"],
-    "documentation": [],
-    "sla": "",  
-  },
+    "backend": "https://gitdengas.dk",
+    "frontend": "https://gitdengas.dk",
+    "monitoring": ["https://gitdengas.dk/grafana/", "https://gitdengas.dk/prometheus/"],
+    "stack": ["Go", "Gorilla/mux", "Gorilla/sessions", "bcrypt", "pgx", "PostgreSQL", "SQLite (CI/tests)", "Docker", "Docker Compose", "nginx", "Prometheus", "Grafana", "node-exporter", "postgres-exporter", "Swaggo/Swagger", "DMI Weather API", "Wikipedia API"],
+    "documentation": ["https://github.com/GitDenGas123456/DevOps-Valgfag/blob/main/README.md", "https://github.com/GitDenGas123456/DevOps-Valgfag/blob/main/docs/How-to-run-the-server.md"],
+    "sla": "https://github.com/GitDenGas123456/DevOps-Valgfag/blob/main/docs/SLA.md",
+   },
 ]
