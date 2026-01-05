@@ -56,8 +56,8 @@ GROUP_REPOS = [
     "frontend": "https://devkopa.dk/",
     "monitoring": "https://devkopa.dk/grafana/",
     "stack": ["Ruby", "Rails", "PostgreSQL", "bcrypt", "puma"],
-    "documentation": [],
-    "sla": "",
+    "documentation": ["https://github.com/devkopa/WhoKnows-next-gen/blob/master/README.md", "https://github.com/devkopa/WhoKnows-next-gen/blob/master/CHANGELOG.md"],
+    "sla": "https://devkopa.dk/sla",
   },
   {
     "name": "CodeLab-DevOps",
